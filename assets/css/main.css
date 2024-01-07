@@ -1,0 +1,63 @@
+@import 'navbar.css';
+@import 'variables.css';
+
+
+@font-face {
+    font-family: 'font';
+    src: url('../fonts/Vazir-Light.woff') format('woff');
+}
+
+body, html{
+    font-family: 'font';
+}
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+img{
+    width: 100%;
+}
+
+:focus{
+    outline-offset: 4px;
+}
+
+/* ============================== */
+
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+
+.text-primary{
+   color: var(--accent);
+}
+
+/* =========SCROLLBAR============ */
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--accent);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--background-secondary) !important;
+}

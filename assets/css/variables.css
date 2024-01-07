@@ -1,0 +1,32 @@
+/* LIGHT THEME  */
+.light-theme{
+    --background-primary: #fff;
+    --background-secondary: #dbdbdb;
+
+    --action-primary:#aaa69d;
+    --action-secondary: #84817a;
+
+    --foreground-primary: #a5b1c2;
+    --foreground-secondary: #778ca3;
+    --foreground-tertiary: #333;
+
+    --accent: #fa8231;
+
+}
+
+
+:root{
+    --white: #fff;
+
+    --fs-base: 0.85rem;
+    --fs-1: 1.875rem;
+    --f2-2: 1.5rem;
+    --fs-3: 1.25rem;
+    --fs-4: 0.875rem;
+    --fs-5: 0.75rem;
+
+    --py: 5rem;
+}
+
+
+/* DARK THEME */
